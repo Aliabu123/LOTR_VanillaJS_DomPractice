@@ -84,10 +84,17 @@ function keepItSecretKeepItSafe() {
 	console.log('3: keepItSecretKeepItSafe')
 
 	// create a div with an id of `'the-ring'`
+	const theRing = document.createElement('div')
+	theRing.id = 'the-ring'
 
 	// give the div a class of `'magic-imbued-jewelry'`
+	theRing.className = 'magic-imbued-jewelry'
+	console.log('this is the ring ${thering}')
 
 	// add the ring as a child of `Frodo`
+	const ulhobbits = document.getElementById('hobbits').children
+	const Frodo = ulhobbits[0]
+	Frodo.appendChild(theRing)
 }
 
 // COMMIT YOUR WORK
@@ -102,7 +109,17 @@ function makeBaddies() {
 
 	// display an unordered list of baddies in Mordor
 
+	const mordor = document.querySelector('#Mordor')
+
 	// give each of the baddies a class of "baddy"
+
+	const ulbaddies = document.createElement('ul')
+	for( let i =0; i < baddies.length; i++) {
+		const libaddies = document.createElement('li')
+		libaddies.className = 'baddies'
+		libaddies.textContent = baddies[i]
+		ulbaddies.appendChild(libaddies)
+	}
 
 	// remember to append them to Mordor
 }
@@ -118,10 +135,16 @@ function makeBuddies() {
 	console.log('5: makeBuddies')
 
 	// create an `aside` tag
+	const aside = document.createElement('aside')
+	console.log(aside)
 
 	// put an `unordered list` of the `'buddies'` in the aside
 
+
+
 	// insert your aside as a child element of `rivendell`
+	asiebuddies.appendChild(olbuddies)
+	rivendell.appendChild(asiebuddies)
 }
 
 // COMMIT YOUR WORK
@@ -135,6 +158,9 @@ function leaveTheShire() {
 	console.log('6: leaveTheShire')
 
 	// assemble the `hobbits` and move them to `rivendell`
+	const assemblehobbits = doucment.querySelector('#hobbits')
+	const rivendell = document.querySelector('#Rivendell')
+	rivendell.appendChild(assemblehobbits)
 }
 
 // COMMIT YOUR WORK
@@ -148,7 +174,9 @@ function beautifulStranger() {
 	console.log('7: beautifulStranger')
 
 	// change the `'Strider'` text to `'Aragorn'`
-}
+	const strider = document.querySelector ('#strider')
+	strider.innerHTML = 'Aragorn'
+}   
 
 // COMMIT YOUR WORK
 // The commit message should read: "Chapter 7 complete - Strider is changed to Aragorn"
@@ -189,9 +217,15 @@ function theBalrog() {
 function hornOfGondor() {
 	console.log('10: hornOfGondor')
 	// pop up an alert that the horn of gondor has been blown
+	alert('the horn of gondor has been blown')
 	// Boromir's been killed by the Uruk-hai!
+	alert('boromir has been killed by the uruk-hail')
 	// Remove `Boromir` from the Fellowship
+	const fellowship = document.getElementById('fellowship').children
+	const boromir = fellowship[8]
+	boromir.remove()
 }
+
 
 // COMMIT YOUR WORK
 // The commit message should read: "Chapter 10 complete - horn of gandor blew and Boromir is dead"
@@ -203,7 +237,14 @@ function hornOfGondor() {
 function itsDangerousToGoAlone() {
 	console.log('11: itsDangerousToGoAlone')
 	// take `Frodo` and `Sam` out of the fellowship and move // them to `Mordor`
+	const fellowship = document.getElementById('fellowship').children
+	const Mordor = document.getElementById('Mordor')
+	Mordor.appendChild(fellowship[0])
+	Mordor.appendChild(fellowship[0])
 	// add a div with an id of `'mount-doom'` to `Mordor`
+	const mountdoom = document.createElement('div')
+	mountdoom.id = 'mount-doom'
+	Mordor.appendChild(mountdoom)
 }
 
 // COMMIT YOUR WORK
@@ -216,8 +257,16 @@ function itsDangerousToGoAlone() {
 function weWantsIt() {
 	console.log('12: weWantsIt')
 	// Create a div with an id of `'gollum'` and add it to Mordor
+	const Mordor = document.getElementById('mordor')
+	const gollum = document.getElementById ('gollum')
+	gollum.id ='gollum'
 	// Remove `the ring` from `Frodo` and give it to `Gollum`
+	const ring = document.getElementById('the-ring')
+	const Frodo = document.getElementById('froddo baggins')
+	gollum.appendChild(ring)
 	// Move Gollum into Mount Doom
+	const mountdoom = document.getElementById('mount-doom')
+	mountdoom.appendChild(gollum)
 }
 
 // COMMIT YOUR WORK
