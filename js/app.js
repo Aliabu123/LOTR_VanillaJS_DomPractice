@@ -279,7 +279,13 @@ function weWantsIt() {
 function thereAndBackAgain() {
 	console.log('13: thereAndBackAgain')
 	// remove `Gollum` and `the Ring` from the document
+	const gollum = document.getElementById('gollum')
+	gollum.remove()
 	// Move all the `hobbits` back to `the shire`
+	const ulhobbits = document.createElement ('ul')
+	ulhobbits.id = 'hobbitlist'
+	const newhobbits = document.querySelectorAll('.hobbit')
+	console.log(hobbits)
 }
 
 // COMMIT YOUR WORK
