@@ -67,7 +67,7 @@ function makeHobbits() {
 		lihobbit.textContent = hobbits [i]
 		ulhobbits.appendChild(lihobbit)
 	}
-
+// finshed chapter 2
 	// hint: create a 'ul' outside the loop into which to append the 'li's
 
 	// hint: get 'The-Shire' by using its id
