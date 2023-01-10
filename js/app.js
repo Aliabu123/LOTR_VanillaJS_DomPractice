@@ -124,7 +124,7 @@ function makeBaddies() {
 	// remember to append them to Mordor
 }
 
-// COMMIT YOUR WORK
+// COMMIT YOUR WORK done
 // The commit message should read: "Chapter 4 complete - Made the Baddies"..
 
 // ============
