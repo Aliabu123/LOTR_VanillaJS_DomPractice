@@ -209,7 +209,7 @@ function theBalrog() {
 	// apply the following style to the element, make the // background 'white', add a grey border
 }
 
-// COMMIT YOUR WORK
+// COMMIT YOUR WORK chapter 9
 // The commit message should read: "Chapter 9 complete - Updated Gandalf"
 
 // ============
