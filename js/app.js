@@ -290,7 +290,7 @@ function thereAndBackAgain() {
 	console.log(hobbits)
 }
 
-// COMMIT YOUR WORK
+// COMMIT YOUR WORK Finally done
 // The commit message should read: "Chapter 13 complete -Gollum and the ring are gone, the baddies are done, and the hobbits are back in the shire".
 
 // =====================================
