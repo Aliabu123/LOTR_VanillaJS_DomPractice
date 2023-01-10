@@ -148,6 +148,7 @@ function makeBuddies() {
 }
 
 // COMMIT YOUR WORK chapter 5 done
+// put the wrong chapter. this is chapter 5
 // The commit message should read: "Chapter 5 complete - Made the Buddies".
 
 // ============
