@@ -271,7 +271,7 @@ function weWantsIt() {
 	mountdoom.appendChild(gollum)
 }
 
-// COMMIT YOUR WORK
+// COMMIT YOUR WORK chapter 12 done
 // The commit message should read: "Chapter 12 complete - Gollum is trying to get the ring".
 
 // ============
