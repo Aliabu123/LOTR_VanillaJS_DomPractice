@@ -179,7 +179,8 @@ function beautifulStranger() {
 	strider.innerHTML = 'Aragorn'
 }   
 
-// COMMIT YOUR WORK
+// COMMIT YOUR WORK Chapter 7 done
+
 // The commit message should read: "Chapter 7 complete - Strider is changed to Aragorn"
 
 // ============
