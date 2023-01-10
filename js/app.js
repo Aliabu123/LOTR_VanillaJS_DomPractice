@@ -147,7 +147,7 @@ function makeBuddies() {
 	rivendell.appendChild(asiebuddies)
 }
 
-// COMMIT YOUR WORK
+// COMMIT YOUR WORK chapter 5 done
 // The commit message should read: "Chapter 5 complete - Made the Buddies".
 
 // ============
