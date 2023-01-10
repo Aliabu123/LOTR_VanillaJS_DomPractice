@@ -97,7 +97,7 @@ function keepItSecretKeepItSafe() {
 	Frodo.appendChild(theRing)
 }
 
-// COMMIT YOUR WORK
+// COMMIT YOUR WORK done
 // The commit message should read: "Chapter 3 complete - Made the ring and gave it to Frodo".
 
 // ============
