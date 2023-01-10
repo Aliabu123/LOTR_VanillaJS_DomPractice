@@ -164,7 +164,7 @@ function leaveTheShire() {
 	rivendell.appendChild(assemblehobbits)
 }
 
-// COMMIT YOUR WORK
+// COMMIT YOUR WORK Chapter 6 done
 // The commit message should read: "Chapter 6 complete - Left the Shire"
 
 // ============
