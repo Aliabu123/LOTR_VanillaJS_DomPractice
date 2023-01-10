@@ -229,7 +229,7 @@ function hornOfGondor() {
 }
 
 
-// COMMIT YOUR WORK
+// COMMIT YOUR WORK chapter 10 done
 // The commit message should read: "Chapter 10 complete - horn of gandor blew and Boromir is dead"
 
 // ============
